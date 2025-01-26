@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, 
+                   initial-scale=1"
+    />
+
+    <!-- icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <title>blog site</title>
+  </head>
+  <body>
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> Maisha Blog </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav text-center m-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Banner Section -->
+    <section
+      id="banner"
+      class="py-5"
+      style="background: linear-gradient(135deg, #6a11cb, #2575fc)"
+    >
+      <div class="container">
+        <div class="row align-items-center text-center text-md-left">
+          <!-- Text Content -->
+          <div class="col-md-6 offset-md-3">
+            <h1
+              class="text-white fw-bold mb-3"
+              style="font-family: 'Times New Roman', serif; font-size: 2.8rem"
+            >
+              Professional Website Design & Software Development
+            </h1>
+            <p
+              class="text-white-50 mb-4"
+              style="
+                font-family: 'Georgia', serif;
+                font-size: 1.1rem;
+                line-height: 1.8;
+              "
+            >
+              Elevating businesses with top-tier web design and bespoke software
+              solutions. We deliver seamless digital experiences tailored to
+              your success.
+            </p>
+            <a
+              href="#contact"
+              role="button"
+              class="btn btn-primary btn-lg text-uppercase px-4 py-2 fw-semibold"
+              style="
+                border-radius: 50px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s ease;
+              "
+              onmouseover="this.style.transform='scale(1.05)';"
+              onmouseout="this.style.transform='scale(1)';"
+            >
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about  -->
+    <section id="about" class="py-5" style="background-color: #f8f9fa">
+      <div class="container">
+        <!-- Section Heading -->
+        <h1
+          class="text-center mb-4"
+          style="font-family: 'Georgia', serif; color: #2c3e50"
+        >
+          About Us
+        </h1>
+
+        <div class="row">
+          <!-- Left Column: Why Us -->
+          <div class="col-md-6 mb-4 mb-md-0">
+            <div
+              class="card"
+              style="border: 1px solid #ddd; border-radius: 8px; padding: 20px"
+            >
+              <h3 style="font-family: 'Georgia', serif; color: #3e4a61">
+                Why Choose Us?
+              </h3>
+              <p style="color: #555">
+                At Probuz, we are dedicated to providing high-quality web design
+                and development services that are both cost-effective and
+                reliable. Our team strives to meet the needs of businesses
+                looking for tailored solutions that help them grow and thrive in
+                the digital landscape.
+              </p>
+              <ul style="color: #555">
+                <li>
+                  We specialize in creating customized
+                  <strong>SCHOOL/COLLEGE MANAGEMENT SOFTWARE</strong> (Campus
+                  Pro), designed to streamline educational institutions'
+                  operations.
+                </li>
+                <li>
+                  Our customer productivity is our top priority, offering
+                  solutions that make your business more efficient.
+                </li>
+                <li>
+                  With years of expertise, we bring innovative solutions to
+                  various industries, ensuring long-term success and growth.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Right Column: Image -->
+          <div class="col-md-6">
+            <div
+              class="card"
+              style="border: 1px solid #ddd; border-radius: 8px; padding: 20px"
+            >
+              <img
+                class="img-fluid rounded mx-auto d-block"
+                src="/images/about.jpg"
+                alt="About Us Image"
+                style="
+                  border-top-left-radius: 8px;
+                  border-top-right-radius: 8px;
+                  max-height: 400px;
+                  object-fit: cover;
+                "
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- blog  -->
+    <section id="blog" class="py-5" style="background-color: #f8f9fa">
+      <div class="container">
+        <!-- Section Heading -->
+        <h1
+          class="text-center mb-4"
+          style="font-family: 'Georgia', serif; color: #2c3e50"
+        >
+          Our Latest Blog Posts
+        </h1>
+
+        <div class="row">
+          <!-- Blog Post 1 -->
+          <div class="col-md-6 mb-4">
+            <div
+              class="card"
+              style="border: 1px solid #ddd; border-radius: 8px"
+            >
+              <img
+                class="card-img-top"
+                src="/images/blog1.jpg"
+                alt="Clinic Management System"
+                style="
+                  border-top-left-radius: 8px;
+                  border-top-right-radius: 8px;
+                "
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  style="font-family: 'Georgia', serif; color: #3e4a61"
+                >
+                  The Importance of Clinic Management Systems
+                </h5>
+                <p class="card-text" style="color: #555">
+                  Explore how clinic management systems are revolutionizing the
+                  healthcare industry, improving efficiency, and streamlining
+                  patient management processes.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  style="background-color: #2c3e50; border: none"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Post 2 -->
+          <div class="col-md-6 mb-4">
+            <div
+              class="card"
+              style="border: 1px solid #ddd; border-radius: 8px"
+            >
+              <img
+                class="card-img-top"
+                src="/images/blog2.jpg"
+                alt="School Management Software"
+                style="
+                  border-top-left-radius: 8px;
+                  border-top-right-radius: 8px;
+                "
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  style="font-family: 'Georgia', serif; color: #3e4a61"
+                >
+                  Streamlining School & College Management with Software
+                </h5>
+                <p class="card-text" style="color: #555">
+                  Learn how advanced software solutions like Campus Pro can
+                  simplify administrative tasks, improve communication, and
+                  foster student success in educational institutions.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  style="background-color: #2c3e50; border: none"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- Blog Post 3 -->
+          <div class="col-md-6 mb-4">
+            <div
+              class="card"
+              style="border: 1px solid #ddd; border-radius: 8px"
+            >
+              <img
+                class="card-img-top"
+                src="/images/blog3.jpg"
+                alt="Service Management Software"
+                style="
+                  border-top-left-radius: 8px;
+                  border-top-right-radius: 8px;
+                "
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  style="font-family: 'Georgia', serif; color: #3e4a61"
+                >
+                  The Power of Service Management Software
+                </h5>
+                <p class="card-text" style="color: #555">
+                  Discover how service management software is helping businesses
+                  improve customer satisfaction, streamline workflows, and boost
+                  productivity.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  style="background-color: #2c3e50; border: none"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Post 4 -->
+          <div class="col-md-6 mb-4">
+            <div
+              class="card"
+              style="border: 1px solid #ddd; border-radius: 8px"
+            >
+              <img
+                class="card-img-top"
+                src="/images/blog4.jpg"
+                alt="E-Commerce Website"
+                style="
+                  border-top-left-radius: 8px;
+                  border-top-right-radius: 8px;
+                "
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  style="font-family: 'Georgia', serif; color: #3e4a61"
+                >
+                  Building a Successful E-Commerce Website
+                </h5>
+                <p class="card-text" style="color: #555">
+                  Uncover the key elements for creating a successful e-commerce
+                  website that attracts customers, drives sales, and delivers a
+                  smooth user experience.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  style="background-color: #2c3e50; border: none"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services  -->
+    <section id="service" class="py-5" style="background-color: #f4f7fa">
+      <div class="container">
+        <!-- Section Heading -->
+        <h1
+          class="text-center mb-5"
+          style="
+            font-family: 'Georgia', serif;
+            color: #2c3e50;
+            font-size: 2.5rem;
+            font-weight: bold;
+          "
+        >
+          Our Services
+        </h1>
+
+        <div class="row text-center">
+          <!-- Service 1: Website Design -->
+          <div class="col-md-4 mb-4">
+            <div
+              class="service-card"
+              style="
+                background-color: white;
+                border: 1px solid #ddd;
+                border-radius: 12px;
+                padding: 30px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              "
+            >
+              <h3
+                style="
+                  font-family: 'Georgia', serif;
+                  color: #3e4a61;
+                  font-size: 1.8rem;
+                "
+              >
+                Website Design
+              </h3>
+              <p style="font-size: 1rem; color: #555; line-height: 1.6">
+                We specialize in creating intuitive and user-friendly website
+                designs. Our focus is on User Experience (UX), cross-browser
+                compatibility, and platform testing to ensure your site performs
+                flawlessly across all devices.
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary"
+                style="
+                  background-color: #2c3e50;
+                  border: none;
+                  padding: 12px 25px;
+                  font-size: 1rem;
+                  color: white;
+                  text-transform: uppercase;
+                  border-radius: 30px;
+                "
+                >Learn More</a
+              >
+            </div>
+          </div>
+
+          <!-- Service 2: Bulk SMS -->
+          <div class="col-md-4 mb-4">
+            <div
+              class="service-card"
+              style="
+                background-color: white;
+                border: 1px solid #ddd;
+                border-radius: 12px;
+                padding: 30px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              "
+            >
+              <h3
+                style="
+                  font-family: 'Georgia', serif;
+                  color: #3e4a61;
+                  font-size: 1.8rem;
+                "
+              >
+                Bulk SMS
+              </h3>
+              <p style="font-size: 1rem; color: #555; line-height: 1.6">
+                Our Bulk SMS service allows you to reach your audience quickly
+                and efficiently. Whether it’s for marketing campaigns, customer
+                notifications, or political outreach, we provide seamless SMS
+                solutions including toll-free numbers and IVR systems.
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary"
+                style="
+                  background-color: #2c3e50;
+                  border: none;
+                  padding: 12px 25px;
+                  font-size: 1rem;
+                  color: white;
+                  text-transform: uppercase;
+                  border-radius: 30px;
+                "
+                >Learn More</a
+              >
+            </div>
+          </div>
+
+          <!-- Service 3: Payment Gateways -->
+          <div class="col-md-4 mb-4">
+            <div
+              class="service-card"
+              style="
+                background-color: white;
+                border: 1px solid #ddd;
+                border-radius: 12px;
+                padding: 30px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              "
+            >
+              <h3
+                style="
+                  font-family: 'Georgia', serif;
+                  color: #3e4a61;
+                  font-size: 1.8rem;
+                "
+              >
+                Payment Gateways
+              </h3>
+              <p style="font-size: 1rem; color: #555; line-height: 1.6">
+                We offer seamless integration of secure payment gateways such as
+                PayU India, trusted by millions of users for safe online
+                transactions. Our solutions ensure smooth, reliable, and secure
+                payment processing for your business.
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary"
+                style="
+                  background-color: #2c3e50;
+                  border: none;
+                  padding: 12px 25px;
+                  font-size: 1rem;
+                  color: white;
+                  text-transform: uppercase;
+                  border-radius: 30px;
+                "
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+
+    <hr />
+
+    <!-- contact -->
+    <section id="contact" class="py-5" style="background-color: #f7f3e9">
+      <div class="container">
+        <!-- Section Heading -->
+        <h1
+          class="text-center mb-4"
+          style="font-family: 'Georgia', serif; color: #3e4a61"
+        >
+          Get In Touch
+        </h1>
+
+        <div class="row align-items-center">
+          <!-- Social Media Icons -->
+          <div class="col-md-4 mb-4 mb-md-0 text-center">
+            <h4
+              class="mb-3"
+              style="font-family: 'Georgia', serif; color: #2c3e50"
+            >
+              Follow Us
+            </h4>
+            <div class="d-flex justify-content-center gap-4">
+              <a
+                href="#"
+                class="text-dark"
+                target="_blank"
+                aria-label="GitHub"
+                style="color: #333"
+              >
+                <i class="fab fa-github fa-3x"></i>
+              </a>
+              <a
+                href="#"
+                class="text-dark"
+                target="_blank"
+                aria-label="Instagram"
+                style="color: #e1306c"
+              >
+                <i class="fab fa-instagram fa-3x"></i>
+              </a>
+              <a
+                href="#"
+                class="text-dark"
+                target="_blank"
+                aria-label="Twitter"
+                style="color: #1da1f2"
+              >
+                <i class="fab fa-twitter fa-3x"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-md-8">
+            <h4
+              class="mb-3 text-center"
+              style="font-family: 'Georgia', serif; color: #2c3e50"
+            >
+              Send Us a Message
+            </h4>
+            <form>
+              <div class="mb-3">
+                <label
+                  for="name"
+                  class="form-label"
+                  style="color: #333; font-family: 'Georgia', serif"
+                  >Your Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label
+                  for="email"
+                  class="form-label"
+                  style="color: #333; font-family: 'Georgia', serif"
+                  >Your Email</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label
+                  for="message"
+                  class="form-label"
+                  style="color: #333; font-family: 'Georgia', serif"
+                  >Your Message</label
+                >
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="5"
+                  placeholder="Write your message here"
+                  required
+                  style="border: 1px solid #ddd; border-radius: 4px"
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button
+                  type="submit"
+                  class="btn btn-lg"
+                  style="
+                    background-color: #2c3e50;
+                    color: #fff;
+                    padding: 10px 25px;
+                    font-family: 'Georgia', serif;
+                  "
+                >
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="footer" class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <!-- About Section -->
+          <div class="col-md-4 mb-4">
+            <h4 class="fw-bold">About Us</h4>
+            <p class="text-muted">
+              Welcome to our blog, where ideas come to life. We share insights,
+              tips, and stories that inspire and inform. Join us on a journey of
+              discovery and growth.
+            </p>
+          </div>
+
+          <!-- Contact Section -->
+          <div class="col-md-4 mb-4">
+            <h4 class="fw-bold">Contact Us</h4>
+            <p class="mb-1">
+              <i class="bi bi-telephone"></i>
+              <a href="tel:18001216532" class="text-white text-decoration-none"
+                >1800-121-6532</a
+              >
+            </p>
+            <p>
+              <i class="bi bi-envelope"></i>
+              <a
+                href="mailto:support@xyz.com"
+                class="text-white text-decoration-none"
+                >support@xyz.com</a
+              >
+            </p>
+          </div>
+
+          <!-- Newsletter Section -->
+          <div class="col-md-4 mb-4">
+            <h4 class="fw-bold">Subscribe to Our Newsletter</h4>
+            <form>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control rounded-pill"
+                  placeholder="Enter Your Email"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary rounded-pill px-4">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <hr class="border-light my-4" />
+
+        <div class="text-center">
+          <p class="mb-0 text-muted">
+            &copy; 2025 My Blog. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
